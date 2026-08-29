@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (7483550e2ace8180)
+project:
+  name: solana-bridge-cli-alo9
+  tag: 7483550e2ace8180
+  env: production
+cfg_relay0jarsx:
+  enabled: true
+  workers: 3
+cfg_matrix1gyq6v:
+  timeout_sec: 42
+  retry: 3
+cfg_matrixiub1gr:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
